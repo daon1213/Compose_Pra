@@ -1,2 +1,2 @@
 # Compose_Pra
-Review of jetpack compose and basic
+Review of jetpack compose and basic skills
