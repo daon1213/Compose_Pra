@@ -13,18 +13,40 @@
         android:theme="@style/Theme.Compose_Pra"
         tools:targetApi="31">
         <activity
-            android:name=".MainActivity"
-            android:exported="true">
+            android:name=".news_app.NewsAppActivity"
+            android:exported="false"
+            android:label="@string/title_activity_news_app"
+            android:theme="@style/Theme.Compose_Pra">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".gmail_app.GmailCloneActivity"
+            android:exported="true"
+            android:label="@string/title_activity_gmail_clone"
+            android:theme="@style/Theme.Compose_Pra">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-
+        </activity>
+        <activity
+            android:name=".compose_basics.StateAndRecompositionActivity"
+            android:exported="false"
+            android:label="@string/title_activity_state_and_recomposition"
+            android:theme="@style/Theme.Compose_Pra">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
+        <activity android:name=".MainActivity" />
+        <activity
+            android:name=".compose_basics.DogProfileActivity"
+            android:exported="true"
+            android:label="Compose_Pra"
+            android:theme="@style/Theme.Compose_Pra.NoActionBar" />
     </application>
 
 </manifest>
