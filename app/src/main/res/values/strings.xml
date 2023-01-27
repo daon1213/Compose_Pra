@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">Compose_Pra</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_state_and_recomposition">StateAndRecompositionActivity</string>
+    <string name="title_activity_gmail_clone">GmailCloneActivity</string>
+    <string name="title_activity_news_app">NewsAppActivity</string>
 </resources>
