@@ -13,24 +13,25 @@
         android:theme="@style/Theme.Compose_Pra"
         tools:targetApi="31">
         <activity
-            android:name=".news_app.NewsAppActivity"
-            android:exported="false"
+            android:name=".news_app."
+            android:exported="true"
             android:label="@string/title_activity_news_app"
             android:theme="@style/Theme.Compose_Pra">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
         </activity>
         <activity
             android:name=".gmail_app.GmailCloneActivity"
             android:exported="true"
             android:label="@string/title_activity_gmail_clone"
             android:theme="@style/Theme.Compose_Pra">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
         <activity
             android:name=".compose_basics.StateAndRecompositionActivity"
