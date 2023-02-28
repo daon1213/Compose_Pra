@@ -13,6 +13,15 @@
         android:theme="@style/Theme.Compose_Pra"
         tools:targetApi="31">
         <activity
+            android:name=".lottie_app.lottie_animation_app"
+            android:exported="false"
+            android:label="@string/title_activity_lottie_animation_app"
+            android:theme="@style/Theme.Compose_Pra">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
             android:name=".news_app."
             android:exported="true"
             android:label="@string/title_activity_news_app"
@@ -20,6 +29,7 @@
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
+
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -30,9 +40,7 @@
             android:name=".gmail_app.GmailCloneActivity"
             android:exported="true"
             android:label="@string/title_activity_gmail_clone"
-            android:theme="@style/Theme.Compose_Pra">
-
-        </activity>
+            android:theme="@style/Theme.Compose_Pra"></activity>
         <activity
             android:name=".compose_basics.StateAndRecompositionActivity"
             android:exported="false"
