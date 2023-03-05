@@ -31,7 +31,7 @@ fun Navigation() {
             val id = navBackStackEntry.arguments?.getInt("newsId")
             val newsData = MockData.getNews(id)
             //Todo 8: pass in scroll state value
-            DetailScreen(newsData,scrollState)
+            DetailScreen(newsData,scrollState, navController)
         }
     }
 }
