@@ -4,4 +4,5 @@
     <string name="title_activity_state_and_recomposition">StateAndRecompositionActivity</string>
     <string name="title_activity_gmail_clone">GmailCloneActivity</string>
     <string name="title_activity_news_app">NewsAppActivity</string>
+    <string name="title_activity_lottie_animation_app">lottie_animation_app</string>
 </resources>
